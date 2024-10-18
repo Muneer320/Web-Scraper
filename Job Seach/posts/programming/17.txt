@@ -1,0 +1,5 @@
+Date: 2021-02-11	Time:  21:28:12
+
+Company Name = postaresumehrconsultancy
+Required Skills = wordpress, ajax, mvvm, xml, asp.net, html, jqueryui, c#, kendoui, kentico, javascript, linq, drupal, .net, fundamentals, bootstrap, jquery, sql, git, oops, json, debugging, mvc, technicalskills, magento, ember.js, infrastructure, php
+More Info = https://www.timesjobs.com/job-detail/technical-programming-lead-post-a-resume-hr-consultancy-ahmedabad-3-to-13-yrs-jobid-hAK09BuVlflzpSvf__PLUS__uAgZw==&source=srp

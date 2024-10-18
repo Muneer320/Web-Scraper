@@ -1,0 +1,17 @@
+# Ignore images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
+# Ignore Excel files
+*.xls
+*.xlsx
+
+# Ignore CSV files
+*.csv
+
+# Ignore specific Python and text files
+test.py
+urls.txt

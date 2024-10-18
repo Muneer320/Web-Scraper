@@ -1,0 +1,5 @@
+Date: 2021-02-11	Time:  21:28:12
+
+Company Name = JobsLoConsultants
+Required Skills = asp.net, webapi, mysql, c#, oracle, messaging, linq, .net, soap, itarchitecture, microsofttechnologies, softwaredesign, ado.net, database, security, softwaredesigner, uml, json, mvc, rest, rdbms, entityframework, infrastructure, leadershipskills, forms
+More Info = https://www.timesjobs.com/job-detail/technical-architect-net-programming-jobslo-consultants-kanpur-10-to-13-yrs-jobid-6H6KOFpmeA9zpSvf__PLUS__uAgZw==&source=srp
