@@ -2,23 +2,21 @@ import requests
 from bs4 import BeautifulSoup
 import os
 from urllib.parse import urljoin
-import imghdr  # Library to determine image file types
-import time  # Import the time module
-import hashlib  # Library to calculate file hashes
+import imghdr
+import time
+import hashlib
 
-# Function to create a directory if it doesn't exist
+
 def create_directory(directory):
     if not os.path.exists(directory):
         os.makedirs(directory)
 
-# Function to download an image from a URL
 def download_image(url, directory, image_number):
     try:
-        # Extract the filename from the URL
         filename = os.path.join(directory, f"{image_number}.jpg")
         with open(filename, 'wb') as file:
             response = requests.get(url)
-            response.raise_for_status()  # Raise an exception for HTTP errors (e.g., 404)
+            response.raise_for_status()
             file.write(response.content)
         print(f"Downloaded: {filename}")
         return True
@@ -32,19 +30,15 @@ def download_image(url, directory, image_number):
 #Input from the user
 url = input("Enter the base URL: ")
 
-# url = "www.example.com"
-
 if not url.endswith("/"):
-    url += "/"  # Ensure the URL ends with a trailing slash
+    url += "/"
 
 
 start_page = int(input("Enter the starting page number: "))
 end_page = int(input("Enter the ending page number: "))
-# start_page, end_page = 7, 7
 
-max_skip_count = 45  # Maximum number of skip/failure attempts allowed
+max_skip_count = 45
 
-# Create a directory to save the downloaded images
 downloaded_images_directory = "downloaded_images"
 create_directory(downloaded_images_directory)
 
@@ -101,7 +95,6 @@ def remove_duplicate_files(directory):
 
 remove_duplicate_files(downloaded_images_directory)
 
-# Stop the timer and calculate the total time taken
 end_time = time.time()
 total_time = end_time - start_time
 print(f"Total time taken: {total_time:.2f} seconds")
