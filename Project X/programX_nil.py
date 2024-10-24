@@ -12,7 +12,7 @@ def extract_img_src(html):
 def purify_img_src(srcs):
     res = []
     for x in srcs:
-        if not (x.startswith('data:') or x.startswith('https://desifakes.com')):
+        if not (x.startswith('data:'):
             res.append(x)
             # print(f"Removed: {x}")
     return res
