@@ -11,8 +11,6 @@ This repository is a collection of various web scrapers I built while learning P
 - **Instagram**: Scrapes data from Instagram profiles.
 - **Job Search**: Collects job postings from various job search platforms.
 - **Picture Of The Day**: Fetches daily images from a specific sites like NASA.
-- **Project X**: Scrapes and downloads images from a specific site.
-- **Project Y**: Similar to Project X, scrapes and downloads images from other specific site.
 - **Reddit Scraper**: Scrapes various data from Reddit.
 - **Scrape all the**: A generalized scraper for gathering all sorts of data.
 
